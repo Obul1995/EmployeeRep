@@ -1,0 +1,18 @@
+.formAlign{
+    margin-left:26em;
+}
+.fieldAlign{
+    margin-left: 34em;
+}
+.spacer{
+    margin-bottom: 1.5em;
+}
+
+.submit {
+    margin-left: 46em;
+    margin-top: 3em;
+}
+.success {
+    color: green;
+    margin-left:26em;
+}

@@ -1,0 +1,38 @@
+<div *ngIf="create;else other_content">
+<h2 class="formAlign">Add Employee</h2>
+<form [formGroup]= "form">
+<div class="spacer">
+    <label class="fieldAlign">First Name*:<input type="text"  formControlName="firstName" (input)="onNameChange()"
+        ></label>
+</div>
+<div class="spacer">
+    <label class="fieldAlign">Last Name:<input type="text"  formControlName="lastName"></label>
+</div>
+<div class="spacer">
+    <label class="fieldAlign">Gender:
+    <select formControlName="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Others">Others</option>
+      </select>
+    </label>
+</div>
+<div class="spacer">
+    <label class="fieldAlign">Department:
+    <select formControlName="department">
+        <option value="Admin">Admin</option>
+        <option value="IT">IT</option>
+        <option value="Banking">Banking</option>
+        <option value="Security">Security</option>
+      </select>
+    </label>
+</div>
+<div class="spacer">
+    <label class="fieldAlign">Date of birth:<input type="date" formControlName="dob"></label>
+</div>
+</form>
+</div>
+<ng-template #other_content><h2 class="success">Added Successfully</h2>
+</ng-template>
+
+<button *ngIf="mandatoryCheck" class ="submit" (click)="onClickRegistration()">Submit</button>
