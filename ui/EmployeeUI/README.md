@@ -1,3 +1,29 @@
+# Employee Portal
+
+This is a demo project to create employee list using Spring Boot(rest api) with Angular.
+
+## Get started
+
+### Clone the repo
+
+```shell
+git clone https://github.com/Obul1995/EmployeeRep.git
+cd EmployeeRep\ui\EmployeeUI\
+```
+
+### Install npm packages
+
+Install the `npm` packages described in the `package.json` and verify that it works:
+
+```shell
+npm install
+npm start
+```
+
+The `npm start` command builds (compiles TypeScript and copies assets) the application into `dist/`, watches for changes to the source files, and runs `lite-server` on port `4200`.
+
+Shut it down manually with `Ctrl-C`.
+
 # EmployeeUI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
