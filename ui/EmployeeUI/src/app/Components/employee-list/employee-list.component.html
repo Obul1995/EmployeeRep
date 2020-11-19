@@ -1,0 +1,22 @@
+<h2 class="formAlign">Employees List</h2>
+
+<p-table [value]="employees">
+    <ng-template pTemplate="header">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Date of birth</th>
+            <th>Gender</th>
+            <th>Department</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-employee>
+        <tr>
+            <td class="dataAlign">{{employee.firstName}}</td>
+            <td class="dataAlign">{{employee.lastName}}</td>
+            <td class="dataAlign">{{employee.dob}}</td>
+            <td class="dataAlign">{{employee.gender}}</td>
+            <td class="dataAlign">{{employee.department}}</td>
+        </tr>
+    </ng-template>
+</p-table>

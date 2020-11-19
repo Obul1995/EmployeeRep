@@ -1,0 +1,13 @@
+:host ::ng-deep .p-datatable table {
+    width: 53%;
+    margin-top: 3em;
+    margin-left: 23em;
+
+}
+.dataAlign{
+    text-align: center;
+}
+
+.formAlign{
+    margin-left:26em;
+}

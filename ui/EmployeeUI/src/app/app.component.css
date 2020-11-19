@@ -1,0 +1,18 @@
+nav a:active{
+    color: cadetblue;
+}
+.header{
+    padding-left: 17em;
+    font-size: 28px;
+    font-weight: 600;
+    color:darkmagenta;
+}
+
+.align{
+margin-left: 60em;
+color: chocolate;
+}
+.buttonAlign{
+    margin-right: 4em;
+    color: chocolate;
+}
